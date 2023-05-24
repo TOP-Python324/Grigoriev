@@ -6,7 +6,7 @@ third_number = (number % 100) // 10
 
 sum_numbers = first_number + second_number + third_number
 
-product_numbers = number // sum_numbers
+product_numbers = first_number * second_number * third_number
 
 print(f'Сумма цифр = {sum_numbers}')
 
